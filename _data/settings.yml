@@ -1,0 +1,106 @@
+#-------------------------------
+# General Site Settings
+
+title: Rivierenbuurt
+description: Een onderzoek
+email: 109046@st-maartenscollege.nl
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+menu:
+- {name: Het onderzoek, url: '#about-me'}
+- {name: Impressies, url: '#work'}
+- {name: Het Team, url: '#clients'}
+- {name: Contact, url: '#contact'}
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Provide a description for your website to make it visible to search engines.'
+  rel-author: ''
+  rel-publisher: ''
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
+# About Section
+
+# NOTE: The avatar is defined in the all.sass document.
+
+
+skills:
+- {name: vraag 1, value: '9'}
+- {name: vraag 2, value: '7'}
+- {name: vraag 3, value: '10'}
+- {name: vraag 4, value: '6'}
+- {name: vraag 5, value: '7'}
+- {name: vraag 6, value: '5'}
+- {name: vraag 7, value: '8'}
+- {name: vraag 8, value: '6'}
+
+#-------------------------------
+# Work Section
+
+projects:
+- {name: Impressies, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: O3 school, folder: 'proj-2', file: 'work/proj-2.html'}
+- {name: Kunst, folder: 'proj-3', file: 'work/proj-3.html'}
+- {name: sloop-nieuwbouw, folder: 'proj-4', file: 'work/proj-4.html'}
+- {name: Flora-Fauna, folder: 'proj-5', file: 'work/proj-5.html'}
+- {name: deltaplantsoen, folder: 'proj-6', file: 'work/proj-6.html'}
+- {name: panorama's, folder: 'proj-7', file: 'work/proj-7.html'}
+- {name: Jaargetijden, folder: 'proj-8', file: 'work/proj-8.html'}
+
+
+
+
+#-------------------------------
+# Clients Section
+
+clients:
+- {avatar: 'eveline.jpg',
+  name: 'Eveline',
+  title: 'Director of Design, OnToText Ind.',
+  quote: '<p><strong>We hadden allemaal het idee dat het niks zou worden</strong> maar Stefan was een grote steun en hij zou het vaker moeten doen.</p>'
+  ,
+  logo: 'logo1.png'}
+- {avatar: 'stefan.jpg',
+  name: 'Stefan',
+  title: 'Doe maar gewoon Int.',
+  quote: '<p><strong>Samenwerken met Eveline en Mellanie was een geweldige ervaring</strong> Ik ga ze vast nog een keer uitnodigen voor een etentje</p>',
+  logo: 'logo2.png'}
+- {avatar: 'janfoto.jpg',
+  name: 'Janfoto',
+  title: 'Plaatjesmaker Int.',
+  quote: '<p><strong>Ja, ik weet wel wat van computers</strong> maar ik hoor in dit rijtje niet thuis. ik vond het gewoon leuk om wat te experimenteren met webdesign. </p>',
+  logo: 'logo3.png'}
+- {avatar: 'mellanie.jpg',
+  name: 'Mellanie',
+  title: 'VIP Lorem Sorem Inc.',
+  quote: '<p><strong>Ik had geen idee waar we zouden uitkomen</strong> maar ik vond het wel spannend. Achteraf bleek het interviewen erg mee te vallen. </p>',
+  logo: 'logo4.png'}
+
+
+#-------------------------------
+# Contact Section
+
+social:
+- {icon: 'twitter', link: 'http://twitter.com'}
+- {icon: 'youtube', link: 'https://www.youtube.com/feed/trending'}
+- {icon: 'linkedin', link: 'http://www.linkedin.com'}
+- {icon: 'instagram', link: 'http://www.instagram.com'}
+- {icon: 'facebook', link: 'http://www.facebook.com'}
+
+
+
+# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
